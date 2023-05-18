@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    build: Part_5/.
+  web:
+    build: Part_6/.
+    ports:
+      - "80:8080"
